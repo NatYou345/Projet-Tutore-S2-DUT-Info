@@ -1,0 +1,157 @@
+body {
+    font-family : arial;
+    background-color: #225e79;
+    margin : 0;
+    padding : 0;
+}
+
+section{
+    background-color:white;
+    border:solid 10px white;
+    padding: 0px;
+    margin-top: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 25px;
+}
+
+header li{
+    margin-left:20px;
+}
+
+header{
+    padding: 5px;
+    background-color: #222222;
+}
+
+header ul{
+    list-style-type:none;
+    padding-bottom: 20px;
+}
+
+header a{
+    color : darkgrey;
+    text-decoration:none;  
+    display:block;
+    float : left;
+    padding-bottom: 50px;
+    padding-right : 50px;
+}
+
+header a:hover{
+    color: white;
+}
+
+section p{
+    margin-left: 10px;
+}
+
+section h2{
+    margin-left: 5px;
+    color : #004575;
+}
+
+section h3{
+    margin-left: 7px;
+}
+
+#titre{
+    padding:10px;
+    background-color: #004575;
+    border-radius: 5px;
+}
+
+#titre h1{
+    font-size: 40px;
+    color: #96b2ea;
+}
+
+#titre img{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#deroulant {
+    width: 900px;
+    background-color: white;
+    padding : 0px;
+    margin-left : 20px;
+    list-style: none;
+}
+
+#deroulant a{
+    text-decoration : none;
+    display : block;
+    color : black;
+    font-size: 1.3em;
+    margin : 10px;
+    color : #96b2ea;
+}
+
+#deroulant li{
+    text-decoration: none;
+    border : 3px solid #004575;
+    border-bottom : none;
+}
+
+#deroulant p{
+    border : none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#deroulant p{
+    max-height: 0px;
+    overflow: hidden;
+}
+
+#deroulant li:hover p{
+    max-height: 750px;
+    padding-bottom: 5px;
+}
+
+#fin_deroulant li{
+    border-bottom: 3px solid #004575; 
+}
+
+#web section figure img{
+    height : 250px;
+    max-width: 500px;
+    border : 3px solid black;
+}
+
+#web section figure{
+    display: inline-block;
+}
+
+section figcaption{
+    text-align : center;
+}
+
+section article{
+    margin-left : 5px;
+    margin-bottom : 30px;
+}
+
+footer{
+    margin-left: 10px;
+    border-top: solid 1px grey; 
+}
+
+footer a{
+    font-size: 1em;
+    color : grey;
+    text-decoration: none;
+}
+
+#asm figure{
+    text-align : center;
+    float: center;
+}
+
+#asm section figure img{
+    border : 3px solid black;
+}
